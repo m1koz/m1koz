@@ -1,5 +1,4 @@
 """Render profile cards from two public distribution repositories; no app source or private data."""
-from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 import json
@@ -38,10 +37,10 @@ def main():
         'light': ('#ffffff', '#d1d9e0', '#1f2328', '#59636e', '#0969da'),
     }.items():
         bg, border, fg, muted, accent = colors
-        parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="760" height="184" viewBox="0 0 760 184" role="img" aria-labelledby="title desc">',
+        parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-labelledby="title desc">',
                  '<title id="title">Public project activity</title>',
                  f'<desc id="desc">{len(PROJECTS)} public projects, {stars} project stars, {releases} releases, {downloads} installer and archive downloads. Downloads count files, not unique users.</desc>',
-                 f'<rect x=".5" y=".5" width="759" height="183" rx="16" fill="{bg}" stroke="{border}"/>',
+                 f'<rect x=".5" y=".5" width="759" height="149" rx="16" fill="{bg}" stroke="{border}"/>',
                  '<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">',
                  f'<text x="28" y="32" fill="{muted}" font-size="11" letter-spacing="2">PROJECT ACTIVITY</text>']
         for i, (value, label) in enumerate(values):
@@ -50,10 +49,7 @@ def main():
                 parts.append(f'<path d="M{x-16} 55V122" stroke="{border}"/>')
             parts += [f'<text x="{x}" y="94" fill="{accent}" font-size="34" font-weight="650">{escape(value)}</text>',
                       f'<text x="{x}" y="119" fill="{fg}" font-size="10" letter-spacing=".7">{label}</text>']
-        updated = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-        parts += [f'<text x="28" y="160" fill="{muted}" font-size="10">Public releases · Downloads count files, not unique users</text>',
-                  f'<text x="732" y="160" fill="{muted}" font-size="10" text-anchor="end">Updated {updated}</text>',
-                  '</g></svg>']
+        parts.append('</g></svg>')
         (output / f'stats-{theme}.svg').write_text('\n'.join(parts) + '\n', encoding='utf-8')
     print(f'Public metrics: {len(PROJECTS)} projects, {stars} stars, {releases} releases, {downloads} file downloads')
 
