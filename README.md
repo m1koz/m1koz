@@ -1,7 +1,7 @@
 <h1 align="center">🦎 M1koz</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/m1koz/m1koz/main/assets/stack.svg" height="46" alt="Swift, Rust, Tauri, JavaScript, HTML, CSS and Python">
+  <img src="https://raw.githubusercontent.com/m1koz/m1koz/main/assets/stack.svg" height="46" alt="Python, Swift, HTML, CSS and JavaScript">
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/m1koz/m1koz/main/assets/tools.svg" height="38" alt="Git and Visual Studio Code">
