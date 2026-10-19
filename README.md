@@ -1,8 +1,28 @@
-## Projects
+<h1 align="center">m1koz</h1>
 
-| [AudioMixer](https://github.com/m1koz/audio-mixer) | [BetterNotes](https://github.com/m1koz/betternotes) |
-| :--- | :--- |
-| [<img src="https://raw.githubusercontent.com/m1koz/audio-mixer/assets/mixer.png" width="390" alt="AudioMixer interface">](https://github.com/m1koz/audio-mixer) | [<img src="https://raw.githubusercontent.com/m1koz/betternotes/main/assets/hero.jpg" width="390" alt="BetterNotes interface">](https://github.com/m1koz/betternotes) |
-| macOS · Swift · SwiftUI · Core Audio | macOS & Windows · Rust · Tauri · JavaScript |
-| [Download](https://github.com/m1koz/audio-mixer/releases/latest) · [Feedback](https://github.com/m1koz/audio-mixer/issues) | [Download](https://github.com/m1koz/betternotes/releases/latest) · [Feedback](https://github.com/m1koz/betternotes/issues) |
+<p align="center">
+  <img src="https://raw.githubusercontent.com/m1koz/m1koz/main/assets/stack.svg" height="46" alt="Swift, Rust, Tauri, JavaScript, HTML, CSS and Python">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/m1koz/m1koz/main/assets/tools.svg" height="38" alt="Git and Visual Studio Code">
+</p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m1koz/m1koz/output/stats-dark.svg">
+    <img src="https://raw.githubusercontent.com/m1koz/m1koz/output/stats-light.svg" width="760" alt="Public project activity: projects, stars, releases and file downloads">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m1koz/m1koz/output/contributions-dark.svg">
+    <img src="https://raw.githubusercontent.com/m1koz/m1koz/output/contributions-light.svg" width="760" alt="Animated contribution graph">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/m1koz/audio-mixer/releases/latest">AudioMixer · macOS</a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://github.com/m1koz/betternotes/releases/latest">BetterNotes · macOS &amp; Windows</a>
+</p>
