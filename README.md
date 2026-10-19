@@ -1,4 +1,4 @@
-<h1 align="center">m1koz</h1>
+<h1 align="center">🦎 M1koz</h1>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/m1koz/m1koz/main/assets/stack.svg" height="46" alt="Swift, Rust, Tauri, JavaScript, HTML, CSS and Python">
