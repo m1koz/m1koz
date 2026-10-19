@@ -1,33 +1,9 @@
 ## Projects
 
-### [AudioMixer](https://github.com/m1koz/audio-mixer)
+| [AudioMixer](https://github.com/m1koz/audio-mixer) | [BetterNotes](https://github.com/m1koz/betternotes) |
+| :--- | :--- |
+| [<img src="https://raw.githubusercontent.com/m1koz/audio-mixer/assets/mixer.png" width="390" alt="AudioMixer interface">](https://github.com/m1koz/audio-mixer) | [<img src="https://raw.githubusercontent.com/m1koz/betternotes/main/assets/hero.jpg" width="390" alt="BetterNotes interface">](https://github.com/m1koz/betternotes) |
+| macOS · Swift · SwiftUI · Core Audio | macOS & Windows · Rust · Tauri · JavaScript |
+| [Download](https://github.com/m1koz/audio-mixer/releases/latest) · [Feedback](https://github.com/m1koz/audio-mixer/issues) | [Download](https://github.com/m1koz/betternotes/releases/latest) · [Feedback](https://github.com/m1koz/betternotes/issues) |
 
-<p>
-  <a href="https://github.com/m1koz/audio-mixer/releases/latest">Download for macOS</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/m1koz/audio-mixer/issues">Feedback</a>
-</p>
-
-<a href="https://github.com/m1koz/audio-mixer">
-  <img src="https://raw.githubusercontent.com/m1koz/audio-mixer/assets/mixer.png" width="800" alt="AudioMixer — per-app volume and audio routing on macOS">
-</a>
-
-<sub>macOS · Swift · SwiftUI · Core Audio</sub>
-
-### [BetterNotes](https://github.com/m1koz/betternotes)
-
-<p>
-  <a href="https://github.com/m1koz/betternotes/releases/latest">Download for macOS &amp; Windows</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/m1koz/betternotes/issues">Feedback</a>
-</p>
-
-<a href="https://github.com/m1koz/betternotes">
-  <img src="https://raw.githubusercontent.com/m1koz/betternotes/main/assets/hero.jpg" width="800" alt="BetterNotes — notes, projects, branches and tasks">
-</a>
-
-<sub>macOS &amp; Windows · Rust · Tauri · JavaScript</sub>
-
----
-
-[Telegram](https://t.me/mkships) · [All releases: AudioMixer](https://github.com/m1koz/audio-mixer/releases) · [All releases: BetterNotes](https://github.com/m1koz/betternotes/releases)
+[Telegram](https://t.me/mkships)
