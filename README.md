@@ -6,4 +6,3 @@
 | macOS · Swift · SwiftUI · Core Audio | macOS & Windows · Rust · Tauri · JavaScript |
 | [Download](https://github.com/m1koz/audio-mixer/releases/latest) · [Feedback](https://github.com/m1koz/audio-mixer/issues) | [Download](https://github.com/m1koz/betternotes/releases/latest) · [Feedback](https://github.com/m1koz/betternotes/issues) |
 
-[Telegram](https://t.me/mkships)
