@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-labelledby="title desc">
 <title id="title">Public project activity</title>
-<desc id="desc">2 public projects, 7 project stars, 8 releases, 47 installer and archive downloads. Downloads count files, not unique users.</desc>
+<desc id="desc">2 public projects, 7 project stars, 8 releases, 49 installer and archive downloads. Downloads count files, not unique users.</desc>
 <rect x=".5" y=".5" width="759" height="149" rx="16" fill="#0d1117" stroke="#30363d"/>
 <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
 <text x="28" y="32" fill="#9198a1" font-size="11" letter-spacing="2">PROJECT ACTIVITY</text>
@@ -13,6 +13,6 @@
 <text x="396" y="94" fill="#79c0ff" font-size="34" font-weight="650">8</text>
 <text x="396" y="119" fill="#e6edf3" font-size="10" letter-spacing=".7">RELEASES</text>
 <path d="M564 55V122" stroke="#30363d"/>
-<text x="580" y="94" fill="#79c0ff" font-size="34" font-weight="650">47</text>
+<text x="580" y="94" fill="#79c0ff" font-size="34" font-weight="650">49</text>
 <text x="580" y="119" fill="#e6edf3" font-size="10" letter-spacing=".7">FILE DOWNLOADS</text>
 </g></svg>
